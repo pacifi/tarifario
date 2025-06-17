@@ -67,13 +67,14 @@
     @endif
 
     <!-- Filtros -->
-    <div class="grid grid-cols-1 md:grid-cols-5 gap-4 mb-6">
-        <div>
+    <div class="flex justify-between gap-4 mb-6">
+
+        <div class="flex-1">
             <label class="block text-sm font-medium">Buscar concepto</label>
             <input type="text" wire:model.defer="filtroConcepto" class="w-full border p-2 rounded" placeholder="Buscar...">
         </div>
 
-        <div>
+        <div class="flex-1">
             <label class="block text-sm font-medium">Trámite</label>
             <select wire:model.defer="filtroTramite" class="w-full border p-2 rounded">
                 <option value="">Todos</option>
@@ -83,7 +84,7 @@
             </select>
         </div>
 
-        <div>
+        <div class="flex-1">
             <label class="block text-sm font-medium">Departamento</label>
             <select wire:model.defer="filtroDepartamento" class="w-full border p-2 rounded">
                 <option value="">Todos</option>
@@ -93,7 +94,7 @@
             </select>
         </div>
 
-        <div>
+        <div class="flex-1">
             <label class="block text-sm font-medium">Nivel Académico</label>
             <select wire:model.defer="filtroNivel" class="w-full border p-2 rounded">
                 <option value="">Todos</option>
@@ -103,12 +104,19 @@
             </select>
         </div>
 
-        <div class="flex items-end">
-            <button wire:click="actualizarConsulta" class="bg-blue-600 px-4 py-2 rounded w-full">
+        <div class="flex items-end flex-1">
+            <!--<button type="button" wire:click="actualizarConsulta" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
+                Aplicar Filtros
+            </button>-->
+            <button type="button" wire:click="actualizarConsulta"
+                    class="w-full py-1.5 px-4 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
                 Aplicar Filtros
             </button>
         </div>
+
+
     </div>
+
 
     <!-- Tabla de resultados -->
     <h2 class="text-lg font-bold mb-4">Lista de Tarifas</h2>
