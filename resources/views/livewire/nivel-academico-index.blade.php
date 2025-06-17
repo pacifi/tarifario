@@ -2,12 +2,15 @@
     <form wire:submit.prevent="save" wire:key="form-{{ $selectedId ?? 'nuevo' }}" class="space-y-4">
         <div>
             <label class="block font-medium">Nombre</label>
-            <input type="text" wire:model.defer="nombre" class="w-full border p-2 rounded">
+            <input type="text" wire:model="nombre" class="w-full border p-2 rounded">
+           {{-- <flux:input icon="academic-cap" wire:model="nombre" placeholder="Search orders" />--}}
+
+
             @error('nombre') <span class="text-red-500 text-sm">{{ $message }}</span> @enderror
         </div>
         <div>
             <label class="block font-medium">Descripción</label>
-            <textarea wire:model.defer="descripcion" class="w-full border p-2 rounded"></textarea>
+            <textarea wire:model="descripcion" class="w-full border p-2 rounded"></textarea>
         </div>
         <button type="submit" class="bg-blue-600  px-4 py-2 rounded">
             {{ $selectedId ? 'Actualizar' : 'Crear' }}
