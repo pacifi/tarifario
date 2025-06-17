@@ -11,7 +11,7 @@
 <header class="flex justify-between items-center px-8 py-5 shadow-md">
     <!-- Logo -->
     <div class="flex items-center space-x-3">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-S-B7TwsrQuhcgGp-Oe6VeYCw3TGI8JCTsA&amp;s"
+        <img src="https://cdn.bio.link/uploads/profile_pictures/2023-08-14/zy6w2dBKfntNXUTkxjpdOTuEgWHMmo2Q.png"
              alt="Logo" style="width: 70px; height: auto;">
         <span class="text-white text-xl font-bold">Tarifario</span>
     </div>
