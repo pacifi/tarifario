@@ -6,7 +6,7 @@
                 <!-- Logo -->
                 <div class="shrink-0 flex items-center">
                     <a href="{{ route('dashboard') }}">
-                        <img src="https://cdn.bio.link/uploads/profile_pictures/2023-08-14/zy6w2dBKfntNXUTkxjpdOTuEgWHMmo2Q.png" style="width: 70px; height: auto;" alt="Foto">
+                        <img src="https://upeu.edu.pe/wp-content/uploads/2022/03/04.png" style="width: 70px; height: auto;" alt="Foto">
                     </a>
                 </div>
 
