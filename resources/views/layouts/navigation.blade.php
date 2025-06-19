@@ -6,7 +6,7 @@
                 <!-- Logo -->
                 <div class="shrink-0 flex items-center">
                     <a href="{{ route('dashboard') }}">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-S-B7TwsrQuhcgGp-Oe6VeYCw3TGI8JCTsA&s" style="width: 70px; height: auto;" alt="Foto">
+                        <img src="https://cdn.bio.link/uploads/profile_pictures/2023-08-14/zy6w2dBKfntNXUTkxjpdOTuEgWHMmo2Q.png" style="width: 70px; height: auto;" alt="Foto">
                     </a>
                 </div>
 
